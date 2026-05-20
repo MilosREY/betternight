@@ -12,7 +12,7 @@ const solutionSteps = [
     step: "02",
     title: "Identifiez les principaux postes d’impact",
     description:
-      "BetterNight met en évidence les arbitrages qui pèsent vraiment : transport, alimentation, matériel ou logistique."
+      "EcoEvent met en évidence les arbitrages qui pèsent vraiment : transport, alimentation, matériel ou logistique."
   },
   {
     step: "03",
@@ -40,13 +40,13 @@ export default function HomePage() {
               <div>
                 <span className="eyebrow">Pour les BDE, BDS et assos étudiantes</span>
                 <h1 className="display-title mt-6 max-w-4xl">
-                  Des événements étudiants plus responsables, sans perdre
-                  l’ambiance.
+                  Des événements étudiants plus responsables, simplement.
                 </h1>
                 <p className="body-copy mt-6 max-w-3xl">
-                  BetterNight aide les BDE et associations étudiantes à estimer
-                  l’impact carbone de leurs soirées, galas et WEI, puis à
-                  identifier les actions les plus simples pour réduire leur impact.
+                  EcoEvent aide les BDE, BDS et associations étudiantes à
+                  estimer l’impact carbone de leurs soirées, galas, WEI et
+                  événements, puis à identifier des actions concrètes pour
+                  réduire leur impact.
                 </p>
 
                 <div className="mt-8 flex flex-col gap-3 sm:flex-row">
@@ -61,7 +61,7 @@ export default function HomePage() {
 
               <div className="grid gap-4">
                 <div className="metric-card">
-                  <p className="text-sm text-mist">Exemple BetterNight</p>
+                  <p className="text-sm text-mist">Exemple EcoEvent</p>
                   <p className="mt-3 font-display text-4xl font-semibold tracking-[-0.04em] text-ink">
                     5,8 tCO2e
                   </p>
@@ -91,7 +91,7 @@ export default function HomePage() {
           <SectionHeading
             eyebrow="Le constat"
             title="Organiser un bel événement étudiant, c’est déjà arbitrer dans tous les sens."
-            description="Les BDE veulent proposer des soirées, galas ou WEI marquants, tout en gérant le budget, l’image auprès de l’école, les déchets, le transport, les sponsors et une pression RSE de plus en plus visible. BetterNight sert à objectiver rapidement ces arbitrages sans culpabiliser les équipes."
+            description="Les BDE veulent proposer des soirées, galas ou WEI marquants, tout en gérant le budget, l’image auprès de l’école, les déchets, le transport, les sponsors et une pression RSE de plus en plus visible. EcoEvent sert à objectiver rapidement ces arbitrages sans culpabiliser les équipes."
           />
 
           <div className="mt-10 grid gap-4 md:grid-cols-2 xl:grid-cols-3">
@@ -162,7 +162,7 @@ export default function HomePage() {
                 <span className="eyebrow">Exemple</span>
                 <h2 className="section-title mt-4">Gala étudiant — 450 participants</h2>
                 <p className="body-copy mt-4">
-                  Une prévisualisation du type de lecture que BetterNight peut
+                  Une prévisualisation du type de lecture qu’EcoEvent peut
                   fournir pour lancer une discussion utile avec l’école, les
                   partenaires et l’équipe orga.
                 </p>
@@ -197,12 +197,12 @@ export default function HomePage() {
                 </span>
                 <h2 className="mt-5 font-display text-3xl font-semibold tracking-[-0.04em] sm:text-4xl">
                   Je cherche 3 BDE ou associations étudiantes à Lyon pour tester
-                  BetterNight gratuitement sur un vrai événement.
+                  EcoEvent gratuitement sur un vrai événement.
                 </h2>
               </div>
 
               <Link
-                href="mailto:hello@betternight.fr?subject=Je%20veux%20devenir%20%C3%A9v%C3%A9nement%20pilote"
+                href="mailto:hello@ecoevent.fr?subject=Je%20veux%20devenir%20%C3%A9v%C3%A9nement%20pilote"
                 className="inline-flex items-center justify-center rounded-full bg-white px-6 py-3 text-sm font-semibold text-ink transition-transform duration-200 hover:-translate-y-0.5"
               >
                 Devenir événement pilote

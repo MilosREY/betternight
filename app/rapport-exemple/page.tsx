@@ -29,7 +29,7 @@ export default function SampleReportPage() {
           <div className="glass-card overflow-hidden">
             <div className="border-b border-line bg-gradient-to-r from-ink to-sky px-6 py-8 text-white sm:px-10">
               <p className="text-sm uppercase tracking-[0.18em] text-white/75">
-                Exemple de rapport BetterNight
+                Exemple de rapport EcoEvent
               </p>
               <h1 className="mt-4 font-display text-4xl font-semibold tracking-[-0.04em] sm:text-5xl">
                 Gala étudiant — 450 participants
@@ -119,7 +119,7 @@ export default function SampleReportPage() {
               </div>
 
               <div className="mt-8 rounded-[24px] border border-dashed border-line bg-cloud/70 px-5 py-4 text-sm leading-6 text-mist">
-                BetterNight fournit une estimation indicative et pédagogique. Cette estimation ne constitue pas un Bilan Carbone® certifié.
+                EcoEvent fournit une estimation indicative et pédagogique. Cette estimation ne constitue pas un Bilan Carbone® certifié.
               </div>
             </div>
           </div>

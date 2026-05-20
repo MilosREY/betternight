@@ -4,9 +4,9 @@ import { SiteHeader } from "@/components/site-header";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "BetterNight",
+  title: "EcoEvent",
   description:
-    "BetterNight aide les BDE, BDS et associations étudiantes à estimer l'impact carbone de leurs événements et à identifier des actions simples pour le réduire."
+    "EcoEvent aide les BDE, BDS et associations étudiantes à estimer l’impact carbone de leurs soirées, galas, WEI et événements, puis à identifier des actions concrètes pour réduire leur impact."
 };
 
 export default function RootLayout({

@@ -17,14 +17,14 @@ export function SiteHeader() {
       <div className="page-shell flex flex-col gap-4 py-4 md:flex-row md:items-center md:justify-between">
         <Link href="/" className="flex items-center gap-3">
           <span className="flex h-11 w-11 items-center justify-center rounded-2xl bg-gradient-to-br from-mint to-sky text-lg font-bold text-white shadow-float">
-            BN
+            EE
           </span>
           <div>
             <p className="font-display text-lg font-semibold tracking-[-0.03em] text-ink">
-              BetterNight
+              EcoEvent
             </p>
             <p className="text-xs uppercase tracking-[0.18em] text-mist">
-              Impact événementiel étudiant
+              Le diagnostic responsable des événements étudiants
             </p>
           </div>
         </Link>
