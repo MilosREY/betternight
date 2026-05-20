@@ -36,7 +36,7 @@ const outputs = [
   "Top 3 des postes d’impact",
   "Recommandations concrètes",
   "Kit de communication école, sponsors et partenaires",
-  "Rapport pilote personnalisable"
+  "Résumé clair à partager"
 ];
 
 export default function HomePage() {
@@ -99,7 +99,7 @@ export default function HomePage() {
           <SectionHeading
             eyebrow="Pour qui ?"
             title="Du gala étudiant au séminaire d’entreprise, EcoEvent s’adresse aux organisateurs qui veulent décider vite et mieux."
-            description="Associations, écoles, entreprises, agences événementielles ou BDE : quand il faut gérer budget, image, transport, logistique, partenaires et enjeux RSE, EcoEvent apporte un diagnostic clair et simple à exploiter."
+            description="Associations, écoles, entreprises, agences événementielles ou BDE : quand il faut gérer budget, image, transport, logistique, partenaires et enjeux RSE, EcoEvent apporte une estimation claire et simple à exploiter."
           />
 
           <div className="mt-10 grid gap-4 md:grid-cols-2 xl:grid-cols-3">
@@ -194,20 +194,28 @@ export default function HomePage() {
             <div className="grid gap-8 lg:grid-cols-[1fr_auto] lg:items-center">
               <div>
                 <span className="eyebrow border-white/15 bg-white/10 text-white">
-                  Diagnostic personnalisé
+                  Utilisation autonome
                 </span>
                 <h2 className="mt-5 font-display text-3xl font-semibold tracking-[-0.04em] sm:text-4xl">
-                  Vous organisez un événement ? Contactez-nous pour obtenir un
-                  diagnostic personnalisé.
+                  Lancez une estimation, partagez votre résultat et continuez à
+                  améliorer votre événement.
                 </h2>
               </div>
 
-              <Link
-                href="mailto:hello@ecoevent.fr?subject=Demande%20de%20diagnostic%20EcoEvent"
-                className="inline-flex items-center justify-center rounded-full bg-white px-6 py-3 text-sm font-semibold text-ink transition-transform duration-200 hover:-translate-y-0.5"
-              >
-                Nous contacter
-              </Link>
+              <div className="flex flex-col gap-3 sm:flex-row">
+                <Link
+                  href="/calculateur"
+                  className="inline-flex items-center justify-center rounded-full bg-white px-6 py-3 text-sm font-semibold text-ink transition-transform duration-200 hover:-translate-y-0.5"
+                >
+                  Lancer une estimation
+                </Link>
+                <Link
+                  href="mailto:hello@ecoevent.fr?subject=Retour%20EcoEvent"
+                  className="inline-flex items-center justify-center rounded-full border border-white/15 bg-white/10 px-6 py-3 text-sm font-semibold text-white transition-colors duration-200 hover:bg-white/15"
+                >
+                  Envoyer un retour
+                </Link>
+              </div>
             </div>
           </div>
         </div>

@@ -51,7 +51,7 @@ export function SiteHeader() {
           </nav>
 
           <Link href="/calculateur" className="button-primary w-full sm:w-auto">
-            Tester gratuitement
+            Lancer une estimation
           </Link>
         </div>
       </div>

@@ -13,13 +13,14 @@ export function SiteFooter() {
         </div>
 
         <div className="flex flex-col gap-2 text-sm text-mist sm:items-end">
-          <Link href="mailto:hello@ecoevent.fr" className="font-medium text-ink">
-            hello@ecoevent.fr
+          <Link
+            href="mailto:hello@ecoevent.fr?subject=Retour%20EcoEvent"
+            className="font-medium text-ink"
+          >
+            Envoyer un retour
           </Link>
-          <p>
-            Pour les organisateurs d’événements, des BDE aux agences
-            événementielles, qui veulent agir sans alourdir l’organisation.
-          </p>
+          <p>hello@ecoevent.fr</p>
+          <p>Un outil autonome pour estimer, comparer et améliorer vos événements.</p>
         </div>
       </div>
     </footer>
