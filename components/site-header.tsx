@@ -24,7 +24,7 @@ export function SiteHeader() {
               EcoEvent
             </p>
             <p className="text-xs uppercase tracking-[0.18em] text-mist">
-              Le diagnostic responsable des événements étudiants
+              Le diagnostic responsable pour vos événements
             </p>
           </div>
         </Link>

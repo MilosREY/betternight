@@ -16,7 +16,10 @@ export function SiteFooter() {
           <Link href="mailto:hello@ecoevent.fr" className="font-medium text-ink">
             hello@ecoevent.fr
           </Link>
-          <p>Pour les BDE, BDS et associations étudiantes qui veulent agir sans alourdir l’organisation.</p>
+          <p>
+            Pour les organisateurs d’événements, des BDE aux agences
+            événementielles, qui veulent agir sans alourdir l’organisation.
+          </p>
         </div>
       </div>
     </footer>

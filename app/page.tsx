@@ -18,15 +18,24 @@ const solutionSteps = [
     step: "03",
     title: "Recevez des recommandations concrètes",
     description:
-      "Des actions activables avant l’événement, sans transformer votre orga en usine à gaz."
+      "Des actions activables avant l’événement, sans transformer l’organisation en usine à gaz."
   }
+];
+
+const audiences = [
+  "BDE & associations étudiantes",
+  "Écoles & campus",
+  "Entreprises",
+  "Agences événementielles",
+  "Associations & collectivités",
+  "Organisateurs de galas, conférences, séminaires et événements sportifs"
 ];
 
 const outputs = [
   "Estimation carbone indicative",
   "Top 3 des postes d’impact",
   "Recommandations concrètes",
-  "Kit de communication école / sponsors",
+  "Kit de communication école, sponsors et partenaires",
   "Rapport pilote personnalisable"
 ];
 
@@ -38,15 +47,14 @@ export default function HomePage() {
           <div className="glass-card overflow-hidden bg-hero-glow p-8 sm:p-10 lg:p-14">
             <div className="grid items-center gap-10 lg:grid-cols-[1.15fr_0.85fr]">
               <div>
-                <span className="eyebrow">Pour les BDE, BDS et assos étudiantes</span>
+                <span className="eyebrow">Pour les organisateurs d’événements</span>
                 <h1 className="display-title mt-6 max-w-4xl">
-                  Des événements étudiants plus responsables, simplement.
+                  Des événements plus responsables, simplement.
                 </h1>
                 <p className="body-copy mt-6 max-w-3xl">
-                  EcoEvent aide les BDE, BDS et associations étudiantes à
-                  estimer l’impact carbone de leurs soirées, galas, WEI et
-                  événements, puis à identifier des actions concrètes pour
-                  réduire leur impact.
+                  EcoEvent aide les organisateurs d’événements à estimer leur
+                  impact carbone, identifier les principaux postes d’émission et
+                  construire un plan d’action simple pour réduire leur impact.
                 </p>
 
                 <div className="mt-8 flex flex-col gap-3 sm:flex-row">
@@ -89,20 +97,13 @@ export default function HomePage() {
       <section className="section-space pt-0">
         <div className="page-shell">
           <SectionHeading
-            eyebrow="Le constat"
-            title="Organiser un bel événement étudiant, c’est déjà arbitrer dans tous les sens."
-            description="Les BDE veulent proposer des soirées, galas ou WEI marquants, tout en gérant le budget, l’image auprès de l’école, les déchets, le transport, les sponsors et une pression RSE de plus en plus visible. EcoEvent sert à objectiver rapidement ces arbitrages sans culpabiliser les équipes."
+            eyebrow="Pour qui ?"
+            title="Du gala étudiant au séminaire d’entreprise, EcoEvent s’adresse aux organisateurs qui veulent décider vite et mieux."
+            description="Associations, écoles, entreprises, agences événementielles ou BDE : quand il faut gérer budget, image, transport, logistique, partenaires et enjeux RSE, EcoEvent apporte un diagnostic clair et simple à exploiter."
           />
 
           <div className="mt-10 grid gap-4 md:grid-cols-2 xl:grid-cols-3">
-            {[
-              "Budget serré et attentes élevées des participants",
-              "Besoin de rassurer l’école et les partenaires",
-              "Déchets, transport et logistique souvent sous-estimés",
-              "Sponsors qui demandent des preuves concrètes",
-              "Équipes étudiantes avec peu de temps et beaucoup à gérer",
-              "Envie d’agir sans perdre l’énergie de l’événement"
-            ].map((item) => (
+            {audiences.map((item) => (
               <div key={item} className="glass-card p-5 text-sm leading-6 text-ink">
                 {item}
               </div>
@@ -116,7 +117,7 @@ export default function HomePage() {
           <SectionHeading
             eyebrow="Méthode"
             title="Une solution simple en 3 étapes"
-            description="L’idée n’est pas de transformer votre équipe en cabinet carbone, mais de vous donner une base claire pour décider vite et mieux."
+            description="L’idée n’est pas de transformer vos équipes en cabinet carbone, mais de vous donner une base claire pour décider vite et mieux."
           />
 
           <div className="mt-10 grid gap-5 lg:grid-cols-3">
@@ -140,7 +141,7 @@ export default function HomePage() {
           <SectionHeading
             eyebrow="Livrables"
             title="Ce que vous obtenez"
-            description="Des livrables utiles pour piloter votre événement, justifier vos choix et valoriser votre démarche auprès de l’école ou des sponsors."
+            description="Des livrables utiles pour piloter votre événement, justifier vos choix et valoriser votre démarche auprès d’une école, d’une direction, d’un sponsor ou d’un partenaire."
           />
 
           <div className="mt-10 grid gap-5 md:grid-cols-2 xl:grid-cols-5">
@@ -163,8 +164,8 @@ export default function HomePage() {
                 <h2 className="section-title mt-4">Gala étudiant — 450 participants</h2>
                 <p className="body-copy mt-4">
                   Une prévisualisation du type de lecture qu’EcoEvent peut
-                  fournir pour lancer une discussion utile avec l’école, les
-                  partenaires et l’équipe orga.
+                  fournir pour lancer une discussion utile avec une école, une
+                  direction, des partenaires ou l’équipe organisatrice.
                 </p>
               </div>
 
@@ -193,19 +194,19 @@ export default function HomePage() {
             <div className="grid gap-8 lg:grid-cols-[1fr_auto] lg:items-center">
               <div>
                 <span className="eyebrow border-white/15 bg-white/10 text-white">
-                  Appel à pilotes
+                  Diagnostic personnalisé
                 </span>
                 <h2 className="mt-5 font-display text-3xl font-semibold tracking-[-0.04em] sm:text-4xl">
-                  Je cherche 3 BDE ou associations étudiantes à Lyon pour tester
-                  EcoEvent gratuitement sur un vrai événement.
+                  Vous organisez un événement ? Contactez-nous pour obtenir un
+                  diagnostic personnalisé.
                 </h2>
               </div>
 
               <Link
-                href="mailto:hello@ecoevent.fr?subject=Je%20veux%20devenir%20%C3%A9v%C3%A9nement%20pilote"
+                href="mailto:hello@ecoevent.fr?subject=Demande%20de%20diagnostic%20EcoEvent"
                 className="inline-flex items-center justify-center rounded-full bg-white px-6 py-3 text-sm font-semibold text-ink transition-transform duration-200 hover:-translate-y-0.5"
               >
-                Devenir événement pilote
+                Nous contacter
               </Link>
             </div>
           </div>
