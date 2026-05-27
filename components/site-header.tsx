@@ -6,7 +6,8 @@ import { usePathname } from "next/navigation";
 const links = [
   { href: "/", label: "Accueil" },
   { href: "/calculateur", label: "Calculateur" },
-  { href: "/rapport-exemple", label: "Rapport exemple" }
+  { href: "/rapport-exemple", label: "Rapport exemple" },
+  { href: "/methodologie", label: "Méthodologie" }
 ];
 
 export function SiteHeader() {

@@ -7,8 +7,8 @@ export default function CalculatorPage() {
       <div className="page-shell">
         <SectionHeading
           eyebrow="Simulation"
-          title="Un calculateur simple pour cadrer rapidement votre impact"
-          description="Ce calculateur EcoEvent donne une estimation pédagogique à partir de facteurs simplifiés pour une soirée, un gala, une conférence, un séminaire, un événement sportif ou un événement étudiant."
+          title="Un calculateur transparent pour cadrer rapidement votre impact"
+          description="Des ordres de grandeur pédagogiques pour comprendre les principaux postes d’impact d’une soirée, d’un gala, d’une conférence, d’un séminaire ou d’un événement sportif."
         />
 
         <div className="mt-10">

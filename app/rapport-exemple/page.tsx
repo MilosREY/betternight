@@ -35,13 +35,11 @@ export default function SampleReportPage() {
                 Gala étudiant — 450 participants
               </h1>
               <p className="mt-4 max-w-2xl text-sm leading-7 text-white/80 sm:text-base">
-                Une preview de rapport pensée pour aider un organisateur
-                d’événement, qu’il s’agisse d’un BDE, d’une école, d’une
-                entreprise ou d’une agence, à structurer sa communication,
-                prioriser ses actions et partager un premier bilan lisible.
+                Une preview de rapport pensée pour structurer la communication,
+                prioriser les actions et partager un premier bilan lisible.
               </p>
               <p className="mt-3 max-w-2xl text-sm leading-7 text-white/72 sm:text-base">
-                Le même diagnostic peut être adapté à un séminaire d’entreprise,
+                Le même format peut être adapté à un séminaire d’entreprise,
                 une conférence, un événement sportif ou une soirée associative.
               </p>
             </div>

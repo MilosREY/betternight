@@ -61,8 +61,8 @@ export default function HomePage() {
                   <Link href="/calculateur" className="button-primary">
                     Tester le calculateur
                   </Link>
-                  <Link href="/rapport-exemple" className="button-secondary">
-                    Voir un exemple de rapport
+                  <Link href="/methodologie" className="button-secondary">
+                    Comprendre mon impact
                   </Link>
                 </div>
               </div>
@@ -74,8 +74,8 @@ export default function HomePage() {
                     5,8 tCO2e
                   </p>
                   <p className="mt-3 text-sm leading-6 text-mist">
-                    Estimation d’un gala étudiant de 450 participants avec un
-                    poste transport dominant.
+                    Gala étudiant de 450 participants avec un poste transport
+                    dominant.
                   </p>
                 </div>
                 <div className="grid gap-4 sm:grid-cols-2">
@@ -99,7 +99,7 @@ export default function HomePage() {
           <SectionHeading
             eyebrow="Pour qui ?"
             title="Du gala étudiant au séminaire d’entreprise, EcoEvent s’adresse aux organisateurs qui veulent décider vite et mieux."
-            description="Associations, écoles, entreprises, agences événementielles ou BDE : quand il faut gérer budget, image, transport, logistique, partenaires et enjeux RSE, EcoEvent apporte une estimation claire et simple à exploiter."
+            description="Associations, écoles, entreprises, agences événementielles ou BDE : une estimation claire pour arbitrer transport, logistique, restauration et matériel."
           />
 
           <div className="mt-10 grid gap-4 md:grid-cols-2 xl:grid-cols-3">
@@ -117,7 +117,7 @@ export default function HomePage() {
           <SectionHeading
             eyebrow="Méthode"
             title="Une solution simple en 3 étapes"
-            description="L’idée n’est pas de transformer vos équipes en cabinet carbone, mais de vous donner une base claire pour décider vite et mieux."
+            description="Une base claire pour décider vite, sans alourdir l’organisation."
           />
 
           <div className="mt-10 grid gap-5 lg:grid-cols-3">
@@ -141,7 +141,7 @@ export default function HomePage() {
           <SectionHeading
             eyebrow="Livrables"
             title="Ce que vous obtenez"
-            description="Des livrables utiles pour piloter votre événement, justifier vos choix et valoriser votre démarche auprès d’une école, d’une direction, d’un sponsor ou d’un partenaire."
+            description="Des repères utiles pour piloter l’événement, partager un résultat et cadrer vos prochaines actions."
           />
 
           <div className="mt-10 grid gap-5 md:grid-cols-2 xl:grid-cols-5">
@@ -163,9 +163,8 @@ export default function HomePage() {
                 <span className="eyebrow">Exemple</span>
                 <h2 className="section-title mt-4">Gala étudiant — 450 participants</h2>
                 <p className="body-copy mt-4">
-                  Une prévisualisation du type de lecture qu’EcoEvent peut
-                  fournir pour lancer une discussion utile avec une école, une
-                  direction, des partenaires ou l’équipe organisatrice.
+                  Une lecture simple pour repérer les grands postes et lancer
+                  une discussion utile avec l’équipe, l’école ou les partenaires.
                 </p>
               </div>
 
@@ -197,8 +196,8 @@ export default function HomePage() {
                   Utilisation autonome
                 </span>
                 <h2 className="mt-5 font-display text-3xl font-semibold tracking-[-0.04em] sm:text-4xl">
-                  Lancez une estimation, partagez votre résultat et continuez à
-                  améliorer votre événement.
+                  Lancez une estimation, partagez le résultat et améliorez votre
+                  événement étape par étape.
                 </h2>
               </div>
 
@@ -207,7 +206,7 @@ export default function HomePage() {
                   href="/calculateur"
                   className="inline-flex items-center justify-center rounded-full bg-white px-6 py-3 text-sm font-semibold text-ink transition-transform duration-200 hover:-translate-y-0.5"
                 >
-                  Lancer une estimation
+                  Améliorer mon événement
                 </Link>
                 <Link
                   href="mailto:hello@ecoevent.fr?subject=Retour%20EcoEvent"
